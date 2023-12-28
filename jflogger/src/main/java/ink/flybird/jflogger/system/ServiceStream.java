@@ -9,5 +9,4 @@ public class ServiceStream extends PrintStream {
         super(out);
     }
 
-
 }

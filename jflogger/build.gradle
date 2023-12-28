@@ -14,7 +14,13 @@ repositories {
     mavenCentral()
 }
 
-apply from: 'E:/Java/GlobalResources/GradleScripts/github_package_publish.gradle'
+publishing {
+    publications {
+        artifact(MavenPublication) {
+            from(components.java)
+        }
+    }
+}
 
 dependencies {
     implementation 'org.joml:joml:1.10.5'
