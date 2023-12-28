@@ -1,0 +1,26 @@
+plugins {
+    id 'java'
+    id 'maven-publish'
+}
+
+//我是FLogger的狗!!    ——草方块
+
+[compileJava, compileTestJava, javadoc]*.options*.encoding = 'UTF-8'
+
+group 'ink.flybird'
+version '0.0.2-1'
+
+repositories {
+    mavenCentral()
+}
+
+apply from: 'E:/Java/GlobalResources/GradleScripts/github_package_publish.gradle'
+
+dependencies {
+    implementation 'org.joml:joml:1.10.5'
+    testImplementation 'junit:junit:4.13.1'
+}
+
+test {
+    useJUnitPlatform()
+}

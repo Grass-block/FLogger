@@ -1,0 +1,9 @@
+[2023/10/6 下午5:31] [Thread-1] [E] Test : Hello World 
+[2023/10/6 下午5:31] [Thread-1] [I] Test : awa qwq 12class Test 
+[2023/10/6 下午5:31] [Thread-1] [I] Test : awa awa qwq 
+[2023/10/6 下午5:31] [Thread-1] [E] Test : |> Exception Caught! 
+[2023/10/6 下午5:31] [Thread-1] [E] Test : |- Type: java.lang.Exception 
+[2023/10/6 下午5:31] [Thread-1] [E] Test : |- Message: fuck!(fuck!) 
+[2023/10/6 下午5:31] [Thread-1] [E] Test : |- Cause: null 
+[2023/10/6 下午5:31] [Thread-1] [E] Test : |- StackTrace: 
+[2023/10/6 下午5:31] [Thread-1] [E] Test : |= at Test.main(Test.java.14) 
